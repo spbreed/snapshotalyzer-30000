@@ -6,6 +6,12 @@ Demo project to manage AWS EC2 instance snapshots
 
 This project is a demo, and uses boto3 to manage AWS EC2 instance snapshots.
 
+## Source code
+
+pip3 install pipenv
+pipenv --three
+pipenv install -d ipython
+
 ## Configuring
 
 shotty uses the configuration file created by the AWS cli. e.g.
