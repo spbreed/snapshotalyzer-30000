@@ -8,9 +8,11 @@ This project is a demo, and uses boto3 to manage AWS EC2 instance snapshots.
 
 ## Source code
 
-pip3 install pipenv
-pipenv --three
-pipenv install -d ipython
+`pip3 install pipenv`
+`pipenv --three`
+`pipenv install -d ipython`
+`pipenv install -d setuptools`
+`python setup.py bdist_wheel`
 
 ## Configuring
 
